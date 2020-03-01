@@ -1,0 +1,28 @@
+//Gustaf Söderholm gusso811
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+
+int main(){
+
+  int size;
+  int amount;
+  int access;
+
+
+  cin >> size;
+  cin >> amount;
+  cin >> access;
+
+
+  
+  vector<int> cache(amount); 
+  for (int i = 0; i < amount; i++){
+    scanf("%d", cache[i]);
+  }
+
+  
+  return 0;
+}

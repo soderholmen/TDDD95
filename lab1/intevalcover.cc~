@@ -1,0 +1,24 @@
+#include <vector>
+#include <iostream>
+#include <iterator>
+#include <algorithm>
+#include <numeric>
+#include <math.h>
+using namespace std;
+
+
+int main(){
+  vector<double> intrevall(2);
+  cin >> intevall[0];
+  cin >> intevall[1];
+  int num_intr{0};
+  cin >> num_intr;
+  vector<pair<double, int> > lower(num_intr);
+  vector<pair<double, int> > higher(num_intr);
+  for( int i = 0; i <= num_intr; i++){
+    
+  }
+
+}
+
+

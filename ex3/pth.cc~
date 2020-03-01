@@ -1,0 +1,34 @@
+/* 
+@Program name      : pth.cc
+
+@Author            : Gustaf Söderholm (gusso811)
+
+@Date created      : 20190209
+*/
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+
+int main(){
+  double x;
+  while (true) {
+    cin >> x;
+    
+    if (x==0)
+      break;
+    
+    for (int b = 2; (b*b) <= x; b++) {
+      int r = b * b;
+      for (int p = 2; r < x; p++)
+	r = r * b;
+      if (r == x) {
+	if (x > 0 || p%2) {
+	  printf("%d\n",p);
+	}
+      }
+     }
+  } 
+   
+}

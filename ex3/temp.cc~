@@ -1,0 +1,28 @@
+/* 
+@Program name      : pth.cc
+
+@Author            : Gustaf Söderholm (gusso811)
+
+@Date created      : 20190209
+*/
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+
+
+  for (int i = 1; i < 33 ; i++){
+    for ( int j = 2; j < pow(2,32); j++){
+      double temp{pow(j, j)};
+      	cout << temp << endl;
+      if (temp < pow(2, 32))
+	cout << temp << endl;
+      
+    }
+  }
+
+
+  return 0;
+}

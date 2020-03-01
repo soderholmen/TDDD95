@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+
+  double amount;
+  cin >> amount;
+
+  vector<int> tree(amount);
+  copy(istream_iterator<int>(cin), istream_iterator<int>(), begin(tree));
+  
+  vector<int> leafs(amount);
+  
+  for (int i = 1; i <= amount; i++){
+    if (find(v.begin(), v.end(), i) == v.end())
+      leafs.pushback(i);
+
+    
+  } 
+
+  return 0;
+}
